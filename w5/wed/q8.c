@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-typedef unsigned int Word;
+#define Word unsigned int;
 
 Word reverseBits(Word w) {
 	Word out = 0;
